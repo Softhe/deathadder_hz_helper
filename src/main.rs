@@ -3,8 +3,8 @@
 use hidapi::{DeviceInfo, HidApi, HidDevice};
 
 const VID: u16 = 0x1532;
-const PID_WIRE: u16 = 0x00c2;
-const PID_WIRELESS: u16 = 0x00c3;
+const PID_WIRE: u16 = 0x00b2;
+const PID_WIRELESS: u16 = 0x00b3;
 const USAGE: u16 = 2;
 const USAGEPAGE: u16 = 1;
 
